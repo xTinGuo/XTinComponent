@@ -7,7 +7,4 @@ package com.xtin.common.model;
  */
 public class BaseModel {
 
-    public BaseModel() {
-        //网络创建
-    }
 }

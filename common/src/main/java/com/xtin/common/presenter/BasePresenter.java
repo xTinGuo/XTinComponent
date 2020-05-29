@@ -9,7 +9,7 @@ import java.lang.ref.WeakReference;
  */
 public class BasePresenter<V> implements IPresenter<V> {
 
-    private WeakReference<V> weakReference;
+    protected WeakReference<V> weakReference;
 
     @Override
     public void register(V view) {
